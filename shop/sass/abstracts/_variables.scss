@@ -1,4 +1,4 @@
-// Font family
+// Color family
 
 :root {
   --clr-black: #000;
@@ -27,7 +27,21 @@
   --clr-blue-2: #a1dbff;
 }
 
-// Font-family
+// Font-size
+
+$default-font-size: 1.6rem;
+
+
+
+// Grid
+
+$grid-width: 100rem;
+$grid-vertical: 8rem;
+$grid-vertical-small: 6rem;
+$grid-horizontal: 6rem;
+
+
+
 
 
 
