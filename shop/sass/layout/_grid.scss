@@ -1,0 +1,26 @@
+.grid-container {
+  display: grid;
+  grid-template-columns:  repeat(auto-fit, minmax(2rem, 1fr));
+  width: 100%;
+
+  &__pc {
+    background-color:var(--clr-grey-4);
+    border-radius: 1rem;
+    display: grid;
+    opacity: 85%;
+    width: 75%;
+  }
+
+  &__system  {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    font-family: var(--description-font);
+    font-size: 1.5rem;
+
+  }
+
+
+
+
+}
