@@ -1,10 +1,72 @@
 .header {
   display: flex;
   justify-content: space-between;
+  align-items: center;
   height: 10vh;
   padding: 1rem 1rem;
-  background-color: var(--clr-white-4);
+  background-color: var(--clr-black-2);
+  color: var(--clr-white-1);
   font-size: 3.2rem;
-  font-family: var(--body-font)
+  font-family: var(--body-font);
+
+  &__input {
+    width: 25rem;
+    background-color: #b5b3cd;
+    color: #fafafa;
+    font-family: inherit;
+    outline: 0.5rem solid #484480;
+    border-radius: 10rem;
+    border: none;
+    padding: 1.2rem 3.2rem;
+    font-weight: 700;
+    font-size: 1.8rem;
+    cursor: pointer;
+    transition: all .3s;
+
+    &:focus {
+      width: 35rem;
+    }
+
+  }
+}
+
+svg {
+  font-family: "JetBrains Mono ExtraBold", sans-serif;
+  width: 200%;
+  height: 200%;
+}
+
+svg text {
+  text-transform: uppercase;
+  animation: stroke 4s infinite alternate;
+  stroke-width: 2;
+  stroke: #ffffff;
+  font-size: 12rem
+}
+
+@keyframes stroke {
+  0% {
+    fill: rgba(72, 138, 20, 0);
+    stroke: rgb(255, 255, 255);
+    stroke-dashoffset: 25%;
+    stroke-dasharray: 0 50%;
+    stroke-width: 2;
+  }
+  70% {
+    fill: rgba(72, 138, 20, 0);
+    stroke: rgb(255, 255, 255);
+  }
+  80% {
+    fill: rgba(72, 138, 20, 0);
+    stroke: rgb(255, 255, 255);
+    stroke-width: 3;
+  }
+  100% {
+    fill: rgb(255, 255, 255);
+    stroke: rgba(54, 95, 160, 0);
+    stroke-dashoffset: -25%;
+    stroke-dasharray: 50% 0;
+    stroke-width: 0;
+  }
 }
 
