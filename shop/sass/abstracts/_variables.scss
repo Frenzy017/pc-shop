@@ -5,7 +5,7 @@
   --clr-black-1: #15141B;
   --clr-black-2: #201E2C;
 
-  --clr-white: #fff;
+  --clr-white: #000000;
   --clr-white-1: #F9FAFB;
   --clr-white-2: #F6F7F9;
   --clr-white-3: #F9FAFB;
@@ -15,7 +15,7 @@
   --clr-grey-1: #C4CDD5;
   --clr-grey-2: #919EAB;
   --clr-grey-3: #637381;
-  --clr-grey-4: #454F5B;
+  --clr-grey-4: #000000;
 
 
   --clr-light: #FFFAE0;
@@ -25,12 +25,13 @@
   --clr-blue: #c8d8ff;
   --clr-blue-1: #b3ddff;
   --clr-blue-2: #a1dbff;
+
+  --clor-pastel: rgb(174, 171, 200);
 }
 
 // Font-size
 
 $default-font-size: 1.6rem;
-
 
 
 // Grid
