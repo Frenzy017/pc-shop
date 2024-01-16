@@ -1,10 +1,18 @@
 function Header() {
     return (
         <>
-            <header className="header">PC Store
+            <header className="header flex-center">
+                <span>
+                        <svg viewBox="0 0 1320 300">
+                        <text x="50%" y="50%" dy=".35em" text-anchor="middle">
+                            PC Store
+                        </text>
+                    </svg>
+                    </span>
                 <div className="flex-end flex-gap-15 ">
-                    <span className="header__total u-margin-right-large" >Total</span>
-                    <span className="header__buy u-margin-right-small">Buy</span>
+                    <input className="header__input" type="text" placeholder="Search"/>
+                    <span className="header__total">Total: 2543.00$</span>
+                    <span className="header__checkout u-margin-right-medium">Checkout</span>
                 </div>
             </header>
         </>
