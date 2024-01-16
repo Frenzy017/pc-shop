@@ -12,6 +12,11 @@ import "/img/White PC.webp"
 import "/img/Black PC.webp"
 import "/img/Black White PC.webp"
 import "/img/Purple PC.webp"
+import "/img/background-1.jpg"
+
+
+
+
 
 
 import "/sass/abstracts/_variables.scss"
