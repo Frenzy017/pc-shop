@@ -3,9 +3,8 @@ function Section() {
         <>
             <section className="section">
                 <div className="flex-center">
-                    <h2 className="heading-primary">Recommended Configurations</h2>
+                    <h2 className="heading-primary">Explore our setups</h2>
                 </div>
-
                 <div className="grid-container u-margin-top-medium">
 
                     <div className="grid-container__card">
@@ -22,7 +21,7 @@ function Section() {
                     </div>
 
                     <div className="grid-container__card">
-                        <img className="grid-container__pc" src="/img/White PC.webp" alt="white"/>
+                        <img className="grid-container__pc" src="/img/Black PC.webp" alt="white"/>
                         <div className="grid-container__system u-margin-top-medium">
                             <h4>Ultra 4090 Gaming PC</h4>
                             <span>GPU: Nvidia RTX 4090 24GB</span>
@@ -36,7 +35,7 @@ function Section() {
                     </div>
 
                     <div className="grid-container__card">
-                        <img className="grid-container__pc" src="/img/White PC.webp" alt="white"/>
+                        <img className="grid-container__pc" src="/img/Black White PC.webp" alt="white"/>
                         <div className="grid-container__system u-margin-top-medium">
                             <h4>Ultra 4090 Gaming PC</h4>
                             <span>GPU: Nvidia RTX 4090 24GB</span>
@@ -49,7 +48,7 @@ function Section() {
                     </div>
 
                     <div className="grid-container__card">
-                        <img className="grid-container__pc" src="/img/White PC.webp" alt="white"/>
+                        <img className="grid-container__pc" src="/img/Purple PC.webp" alt="white"/>
                         <div className="grid-container__system u-margin-top-medium">
                             <h4>Ultra 4090 Gaming PC</h4>
                             <span>GPU: Nvidia RTX 4090 24GB</span>
@@ -59,10 +58,12 @@ function Section() {
                             <span>Motherboard: AMD B650 WiFi</span>
                             <span>PCU: Seasonic FX 750W Gold rated</span>
                         </div>
+
+
                     </div>
-
-
                 </div>
+
+
             </section>
         </>
     )
