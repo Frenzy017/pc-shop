@@ -1,3 +1,5 @@
+// FLEX PROPERTIES
+
 .flex-center {
   display: flex;
   justify-content: center;
@@ -9,7 +11,7 @@
   justify-content: flex-end;
 }
 
-.fled-start {
+.flex-start {
   display: flex;
   align-self: flex-start;
 }
@@ -22,11 +24,11 @@
   gap: 15rem;
 }
 
+
 // MARGIN BOTTOM
 .u-margin-bottom-small {
   margin-bottom: 1.5rem !important;
 }
-
 
 
 .u-margin-bottom-medium {
