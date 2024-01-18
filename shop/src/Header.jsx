@@ -11,6 +11,7 @@ function Header() {
                     </span>
                 <div className="flex-end flex-gap-15 ">
                     <input className="header__input" type="text" placeholder="Search"/>
+                    <span className="header__sort">Sort</span>
                     <span className="header__total">Total: 2543.00$</span>
                     <span className="header__checkout u-margin-right-medium">Checkout</span>
                 </div>
