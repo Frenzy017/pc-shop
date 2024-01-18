@@ -4,7 +4,7 @@
   background-position: center;
 }
 
-.grid-container {
+.section-container {
   display: grid;
   grid-template-columns:  repeat(auto-fit, minmax(25rem, 1fr));
   margin-left: 3rem;
@@ -13,11 +13,6 @@
   &__image {
     position: relative;
   }
-
-&__pc:hover ~ &__overlay-text {
-  display: block;
-}
-
 
   &__overlay-text {
     display: none;
@@ -38,7 +33,6 @@
     clip-path: polygon(21% 0, 100% 0, 75% 100%, 0 100%);
     width: 75%;
     box-shadow: 0 2rem 4rem rgb(0, 0, 0);
-    position: relative;
 
     &:hover {
       cursor: pointer;
@@ -46,14 +40,8 @@
       opacity: 50%;
       transform: translate(1rem, -1rem);
       display: block;
-
-      &__overlay-text {
-        display: block;
-      }
-
     }
   }
-
 
   &__system {
     display: flex;
@@ -62,7 +50,13 @@
     font-family: var(--description-font);
     font-size: 2rem;
     line-height: 3.2rem;
+  }
 
+  &__price {
+    font-size: 3rem;
 
   }
+
 }
+
+
