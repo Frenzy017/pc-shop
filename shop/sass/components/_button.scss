@@ -1,0 +1,72 @@
+.btn {
+  &,
+  &:link,
+  &:visited {
+    text-transform: uppercase;
+    padding: 1.5rem 4rem;
+    display: inline-block;
+    border-radius: 10rem;
+    transition: all .2s;
+    position: relative;
+    font-size: var(--description-font);
+
+    // Change for the <button> element
+    border: none;
+    cursor: pointer;
+
+  }
+
+  &:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 10px 20px var(--clr-black-2);
+
+    &::after {
+      transform: scaleX(1.4) scaleY(1.6);
+      opacity: 0;
+    }
+  }
+
+  /*When we click an element its the active state property*/
+  &:active,
+  &:focus {
+    outline: none;
+    transform: translateY(-1px);
+    box-shadow: 0 5px 10px rgba(var(--clr-black-2), .2);
+  }
+
+  &--white {
+    background-color: var(--clr-white);
+    color: var(--clr-grey-4);
+
+    &::after {
+      background-color: var(--clr-white);
+    }
+
+
+    padding: 15px 40px;
+    /*Inline block is useful to give some paddings and heights */
+    /* So it doesn't cut out other elements in*/
+    display: inline-block;
+    border-radius: 100px;
+    transition: all .2s;
+    position: relative;
+
+    /*Properties: shadow in x, shadow in y, blur, color*/
+  }
+
+  &:hover {
+    background-color: var(--clr-white-4);
+    color: var(--clr-white);
+    box-shadow: 0 1rem 2rem rgba(var(--clr-black-2), .15);
+    transform: translateY(-2px);
+  }
+
+  &:active {
+    box-shadow: 0 0.5rem 1rem rgba(var(--clr-black-2), .15);
+    transform: translateY(0);
+  }
+
+
+
+}
+
