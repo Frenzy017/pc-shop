@@ -21,7 +21,7 @@
 }
 
 .flex-gap-10 {
-  gap: 15rem;
+  gap: 10rem;
 }
 
 
@@ -41,6 +41,11 @@
 
 
 // MARGIN TOP
+
+.u-margin-top-small{
+  margin-top: 2rem !important;
+}
+
 .u-margin-top-medium{
   margin-top: 4rem !important;
 }
