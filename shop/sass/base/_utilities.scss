@@ -24,6 +24,19 @@
   gap: 10rem;
 }
 
+.flex-gap-5 {
+  gap: 5rem;
+}
+
+.flex-gap-2 {
+  gap: 2rem;
+}
+
+.bolder {
+  font-weight: bolder;
+}
+
+
 
 // MARGIN BOTTOM
 .u-margin-bottom-small {
@@ -69,4 +82,8 @@
 }
 .u-margin-right-large {
   margin-right: 8rem !important;
+}
+
+.green {
+  color: lawngreen;
 }
