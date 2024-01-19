@@ -3,13 +3,13 @@
 :root {
   --clr-black: #000;
   --clr-black-1: #15141B;
-  --clr-black-2: #201E2C;
+  --clr-black-2: #000000;
 
   --clr-white: #000000;
   --clr-white-1: #F9FAFB;
   --clr-white-2: #F6F7F9;
   --clr-white-3: #F9FAFB;
-  --clr-white-4: #F4F6F8;
+  --clr-white-4: #484480;
 
   --clr-grey: #DFE3E8;
   --clr-grey-1: #C4CDD5;
@@ -27,19 +27,21 @@
   --clr-blue-2: #a1dbff;
 
   --clor-pastel: rgb(174, 171, 200);
+
+  --default-font-size: 1.6rem;
+
+  // Grid
+
+  --grid-width: 100rem;
+  --grid-vertical: 8rem;
+  --grid-vertical-small: 6rem;
+  --grid-horizontal: 6rem;
+
+
 }
 
 // Font-size
 
-$default-font-size: 1.6rem;
-
-
-// Grid
-
-$grid-width: 100rem;
-$grid-vertical: 8rem;
-$grid-vertical-small: 6rem;
-$grid-horizontal: 6rem;
 
 
 
