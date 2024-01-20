@@ -11,6 +11,7 @@
 
   &__input {
     width: 25rem;
+    height: 4rem;
     background-color: #b5b3cd;
     color: #fafafa;
     font-family: inherit;
@@ -26,8 +27,28 @@
     &:focus {
       width: 35rem;
     }
-
   }
+
+  &__sort {
+    display: flex;
+    justify-content: center;
+
+    select {
+      height: 4rem;
+      width: auto;
+      font-family: var(--body-font);
+      font-size: 1.8rem;
+      padding-left: 1rem;
+      font-weight: 700;
+      background-color: #b5b3cd;
+      color: #fafafa;
+      border-radius: 1rem;
+      transition: all .3s;
+      border: none;
+
+    }
+  }
+
 }
 
 svg {
@@ -44,29 +65,5 @@ svg text {
   font-size: 12rem
 }
 
-@keyframes stroke {
-  0% {
-    fill: rgba(72, 138, 20, 0);
-    stroke: rgb(255, 255, 255);
-    stroke-dashoffset: 25%;
-    stroke-dasharray: 0 50%;
-    stroke-width: 2;
-  }
-  70% {
-    fill: rgba(72, 138, 20, 0);
-    stroke: rgb(255, 255, 255);
-  }
-  80% {
-    fill: rgba(72, 138, 20, 0);
-    stroke: rgb(255, 255, 255);
-    stroke-width: 3;
-  }
-  100% {
-    fill: rgb(255, 255, 255);
-    stroke: rgba(54, 95, 160, 0);
-    stroke-dashoffset: -25%;
-    stroke-dasharray: 50% 0;
-    stroke-width: 0;
-  }
-}
+
 
