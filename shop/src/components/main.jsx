@@ -2,6 +2,7 @@ import React from 'react'
 import ReactDOM from 'react-dom/client'
 import Header from "/src/components/Header.jsx"
 import Section from "/src/components/Section.jsx"
+import Footer from "/src/components/Footer.jsx"
 
 
 import "/css/fonts.css"
@@ -16,6 +17,8 @@ import "/img/background-1.jpg"
 
 import "/sass/abstracts/_variables.scss"
 
+
+import "/sass/base/_animations.scss"
 import "/sass/base/_base.scss"
 import "/sass/base/_typography.scss"
 import "/sass/base/_utilities.scss"
@@ -32,5 +35,6 @@ ReactDOM.createRoot(document.getElementById('root')).render(
     <React.StrictMode>
         <Header/>
         <Section/>
+        <Footer/>
     </React.StrictMode>,
 )
