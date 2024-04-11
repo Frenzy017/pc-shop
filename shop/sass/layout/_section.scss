@@ -1,3 +1,5 @@
+/** @format */
+
 .section {
   background-image: linear-gradient(rgb(174, 171, 200), rgba(250, 248, 248, 0.9)), url(../img/background-1.jpg);
   background-size: cover;
@@ -6,15 +8,13 @@
 
 .section-container {
   display: grid;
-  grid-template-columns:  repeat(auto-fit, minmax(25rem, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(25rem, 1fr));
   margin-left: 3rem;
   width: 100%;
-
 
   &__image {
     position: relative;
   }
-
 
   &__pc:hover + &__content {
     display: inline-block;
@@ -36,14 +36,12 @@
     }
   }
 
-
   &__content {
     -moz-animation: gm-slidein 1s 1;
     -ms-animation: gm-slidein 1s 1;
     -o-animation: gm-slidein 1s 1;
     -webkit-animation: gm-slidein 1s 1;
     animation: gm-slidein 1s 1;
-
 
     display: none;
     position: absolute;
@@ -67,7 +65,6 @@
     -webkit-text-stroke: 1.5px #c8cbff;
   }
 
-
   &__pc {
     background: rgb(152, 149, 229);
     background: linear-gradient(90deg, rgb(250, 250, 250) 0%, rgb(134, 132, 160) 100%);
@@ -82,7 +79,6 @@
       transform: translate(1rem, -1rem);
       display: inline-block;
     }
-
   }
 
   &__system {
@@ -94,7 +90,7 @@
     line-height: 3.2rem;
   }
 
-  &__price, {
+  &__price {
     font-size: 3.5rem;
   }
 
@@ -102,10 +98,3 @@
     color: #484480;
   }
 }
-
-
-
-
-
-
-
