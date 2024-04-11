@@ -1,0 +1,13 @@
+footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 10vh;
+  padding: 1rem 1rem;
+}
+
+.footer__wrapper {
+  &--icons {
+    font-size: 4rem;
+  }
+}
