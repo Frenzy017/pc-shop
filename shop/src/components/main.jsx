@@ -27,7 +27,6 @@ import "/sass/components/_button.scss"
 
 import "/sass/layout/_header.scss"
 import "/sass/layout/_section.scss"
-import "/sass/layout/_navigation.scss"
 import "/sass/layout/_footer.scss"
 
 
