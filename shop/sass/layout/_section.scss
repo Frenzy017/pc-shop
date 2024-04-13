@@ -1,9 +1,13 @@
 /** @format */
 
+
+
+
 .section {
-  background-image: linear-gradient(rgb(174, 171, 200), rgba(250, 248, 248, 0.9)), url(../img/background-1.jpg);
+  background-image: linear-gradient(rgb(174, 171, 200), rgba(250, 248, 248, 0.9)), url(../../img/background-1.jpg);
   background-size: cover;
   background-position: center;
+  height: 80dvh;
 }
 
 .section-container {
