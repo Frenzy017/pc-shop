@@ -1,4 +1,9 @@
-import imgUrl from "../../img/White PC.webp"
+import whitePc from "../../img/White PC.webp"
+import blackPc from "../../img/Black PC.webp"
+import blackWhitePC from "../../img/Black White PC.webp"
+import purplePC from "../../img/Purple PC.webp"
+
+
 
 
 function Section() {
@@ -11,7 +16,7 @@ function Section() {
                 <div className="section-container u-margin-top-medium">
 
                     <div className="section-container__card">
-                        <img className="section-container__pc" src={imgUrl} alt="white" />
+                        <img className="section-container__pc" src={whitePc} alt="white" />
                         <div className="section-container__content">
                             <p>Only</p>
                             <p>3 left!</p>
@@ -52,7 +57,8 @@ function Section() {
                     </div>
 
                     <div className="section-container__card">
-                        <img className="section-container__pc" src="/img/Black PC.webp" alt="white" />
+                        <img className="section-container__pc" src={blackPc} alt="white" />
+                        
                         <div className="section-container__system u-margin-top-medium">
                             <h4>Ultra 4090 Gaming PC</h4>
                             <div>
@@ -89,7 +95,7 @@ function Section() {
                     </div>
 
                     <div className="section-container__card">
-                        <img className="section-container__pc" src="/img/Black White PC.webp" alt="white" />
+                        <img className="section-container__pc" src={blackWhitePC} alt="white" />
                         <div className="section-container__system u-margin-top-medium">
                             <h4>Ultra 4070 Super Gaming PC</h4>
                             <div>
@@ -126,7 +132,7 @@ function Section() {
                     </div>
 
                     <div className="section-container__card">
-                        <img className="section-container__pc" src="/img/Purple PC.webp" alt="white" />
+                        <img className="section-container__pc" src={purplePC} alt="white" />
                         <div className="section-container__system u-margin-top-medium">
                             <h4>Creator PC Ultimate</h4>
                             <div>
